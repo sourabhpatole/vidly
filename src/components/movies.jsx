@@ -17,7 +17,7 @@ class Movies extends React.Component {
     movies[index] = { ...movies[index] };
     movies[index].liked = !movies[index].liked;
     this.setState({ movies });
-    console.log("like clicked", movie);
+    // console.log("like clicked", movie);
   };
 
   render() {
